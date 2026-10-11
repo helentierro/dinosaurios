@@ -10,7 +10,7 @@ const ESPECIES = [
     texto:
       "El herbívoro cornudo más común del Cretácico norteamericano. El volante del cráneo protegía el cuello y servía de exhibición.",
     etiqueta: "Cuernos",
-    img: "img/triceratops.jpg",
+    img: `${import.meta.env.BASE_URL}img/triceratops.jpg`,
     alt: "Reconstrucción de Triceratops en un entorno boscoso.",
   },
   {
@@ -19,7 +19,7 @@ const ESPECIES = [
     texto:
       "Las placas de la espalda no eran armadura: probablemente regulaban la temperatura o servían de señal social. La cola sí era peligrosa.",
     etiqueta: "Placas",
-    img: "img/stegosaurus.jpg",
+    img: `${import.meta.env.BASE_URL}img/stegosaurus.jpg`,
     alt: "Montaje de Sophie, el ejemplar de Stegosaurus mejor conservado.",
   },
   {
@@ -28,7 +28,7 @@ const ESPECIES = [
     texto:
       "Cubierto de escudos óseos, con una maza de hueso al final de la cola capaz de romper la pierna de un depredador.",
     etiqueta: "Blindaje",
-    img: "img/ankylosaurus.jpg",
+    img: `${import.meta.env.BASE_URL}img/ankylosaurus.jpg`,
     alt: "Réplica de la cabeza acorazada de un anquilosaurio.",
   },
   {
@@ -37,7 +37,7 @@ const ESPECIES = [
     texto:
       "La cresta conectaba con la nariz. Los estudios sugieren que resonaba y servía para emitir llamadas de baja frecuencia.",
     etiqueta: "Cresta",
-    img: "img/parasaurolophus.jpg",
+    img: `${import.meta.env.BASE_URL}img/parasaurolophus.jpg`,
     alt: "Fósil de Parasaurolophus cyrtocristatus.",
   },
 ];

@@ -10,7 +10,7 @@ const GRUPOS = [
     texto:
       "Un lagarto marino gigante, emparentado con los varanos actuales. No era un dinosaurio, sino un reptil marino que ocupó el lugar del superdepredador oceánico.",
     tamano: "hasta unos 17 m",
-    img: "img/mosasaurus.jpg",
+    img: `${import.meta.env.BASE_URL}img/mosasaurus.jpg`,
     alt: "Esqueleto de Mosasaurus hoffmannii.",
   },
   {
@@ -19,7 +19,7 @@ const GRUPOS = [
     texto:
       "Con forma de delfín y ojos enormes. Aparecieron antes que los dinosaurios y se extinguieron antes que ellos. Su parecido con los delfines es un caso clásico de evolución convergente.",
     tamano: "de 1 a más de 20 m según la especie",
-    img: "img/ichthyosaur.jpg",
+    img: `${import.meta.env.BASE_URL}img/ichthyosaur.jpg`,
     alt: "Silueta de ictiosaurio comparada con un ser humano.",
   },
   {
@@ -28,7 +28,7 @@ const GRUPOS = [
     texto:
       "Cuello largo y cuatro aletas que batían como alas. Algunos tenían cuellos de varios metros; otros, cortos y cabezas enormes. Tampoco eran dinosaurios.",
     tamano: "de 3 a unos 15 m",
-    img: "img/plesiosaur.jpg",
+    img: `${import.meta.env.BASE_URL}img/plesiosaur.jpg`,
     alt: "Silueta de Elasmosaurus con su largo cuello.",
   },
 ];

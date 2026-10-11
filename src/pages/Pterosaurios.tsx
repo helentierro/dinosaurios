@@ -10,7 +10,7 @@ const ESPECIES = [
       "Candidato al animal volador más grande que ha existido. El Museo de Historia Natural de Londres calcula una envergadura de unos 11 m. Las estimaciones antiguas iban de 5,2 a 25,8 m porque el único fósil conocido es muy fragmentario.",
     envergadura: "unos 11 m",
     nota: "Estimación del NHM; el rango histórico es mucho más amplio por lo incompleto del material.",
-    img: "img/quetzalcoatlus.jpg",
+    img: `${import.meta.env.BASE_URL}img/quetzalcoatlus.jpg`,
     alt: "Silueta de Quetzalcoatlus northropi en vuelo.",
   },
   {
@@ -19,7 +19,7 @@ const ESPECIES = [
       "El pterosaurio más popular, con una cresta larga hacia atrás. No tenía dientes: pescaba con el pico. Su envergadura era grande, pero muy por debajo de la de Quetzalcoatlus.",
     envergadura: "unos 6 m",
     nota: "Cifra estable en la literatura, con menos controversia que la de su pariente gigante.",
-    img: "img/pteranodon.jpg",
+    img: `${import.meta.env.BASE_URL}img/pteranodon.jpg`,
     alt: "Montaje de Pteranodon en el Museo Americano de Historia Natural.",
   },
 ];

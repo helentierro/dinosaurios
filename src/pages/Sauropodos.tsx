@@ -11,7 +11,7 @@ const ESPECIES = [
       "Saurópodo del Cretácico de Argentina. Las estimaciones de peso oscilan mucho: los estudios recientes lo sitúan en torno a 70 toneladas, con rangos que llegan a 95 toneladas.",
     dato: "unos 35 m de largo",
     invertir: false,
-    img: "img/argentinosaurus.jpg",
+    img: `${import.meta.env.BASE_URL}img/argentinosaurus.jpg`,
     alt: "Silueta a escala de Argentinosaurus comparada con un ser humano.",
   },
   {
@@ -21,7 +21,7 @@ const ESPECIES = [
       "Famoso por su perfil jirafa: patas delanteras más largas que las traseras. Se ha usado como el saurópodo de referencia durante décadas.",
     dato: "unos 21 m de largo",
     invertir: true,
-    img: "img/brachiosaurus.jpg",
+    img: `${import.meta.env.BASE_URL}img/brachiosaurus.jpg`,
     alt: "Montaje de Brachiosaurus en un museo.",
   },
   {
@@ -31,7 +31,7 @@ const ESPECIES = [
       "No era el más pesado, pero sí uno de los más largos. Su cola terminaba en un látigo delgado que pudo usarse como defensa.",
     dato: "unos 25 m de largo",
     invertir: false,
-    img: "img/diplodocus.jpg",
+    img: `${import.meta.env.BASE_URL}img/diplodocus.jpg`,
     alt: "Esqueleto montado de Diplodocus carnegiei.",
   },
 ];

@@ -71,7 +71,7 @@ export default function Inicio() {
           {/* Imagen real del hero: montaje de museo de T. rex */}
           <figure className="m-0">
             <img
-              src="img/trex.jpg"
+              src={`${import.meta.env.BASE_URL}img/trex.jpg`}
               alt="Montaje de esqueleto de Tyrannosaurus rex en una exposición de dinosaurios."
               width={1200}
               height={800}

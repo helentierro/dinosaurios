@@ -26,7 +26,7 @@ export default function Extincion() {
               </p>
             </div>
             <img
-              src="img/chicxulub.jpg"
+              src={`${import.meta.env.BASE_URL}img/chicxulub.jpg`}
               alt="Mapa del cráter de Chicxulub en la península de Yucatán."
               loading="eager"
               className="aspect-[16/9] w-full rounded-[14px] border border-papel/20 object-cover"

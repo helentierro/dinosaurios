@@ -25,7 +25,7 @@ const FICHAS: Ficha[] = [
       { k: "Periodo", v: "Cretácico tardío, hace unos 68 a 66 M de años" },
     ],
     nota: "La cifra de mordida varía mucho entre estudios; algunas extrapolaciones llegan más alto, pero el rango citado es el más aceptado.",
-    img: "img/trex.jpg",
+    img: `${import.meta.env.BASE_URL}img/trex.jpg`,
     alt: "Montaje de esqueleto de Tyrannosaurus rex en una exposición.",
   },
   {
@@ -39,7 +39,7 @@ const FICHAS: Ficha[] = [
       { k: "Periodo", v: "Cretácico tardío, hace unos 75 a 71 M de años" },
     ],
     nota: "Las películas lo agrandaron. Los fósiles de Mongolia muestran un animal del tamaño de un pavo.",
-    img: "img/velociraptor.jpg",
+    img: `${import.meta.env.BASE_URL}img/velociraptor.jpg`,
     alt: "Esqueleto fosilizado de Velociraptor mongoliensis del Museo Americano de Historia Natural.",
   },
   {
@@ -53,7 +53,7 @@ const FICHAS: Ficha[] = [
       { k: "Clave", v: "Cola con propulsión, descrita por Ibrahim et al. 2020" },
     ],
     nota: "La longitud es estimada a partir de restos parciales; el rango publicado va de 12 a 15 m.",
-    img: "img/spinosaurus.jpg",
+    img: `${import.meta.env.BASE_URL}img/spinosaurus.jpg`,
     alt: "Montaje de Spinosaurus con la vela dorsal característica.",
   },
   {
@@ -67,7 +67,7 @@ const FICHAS: Ficha[] = [
       { k: "Yacimiento", v: "Cantera de Cleveland-Lloyd, Utah" },
     ],
     nota: "Se han encontrado huesos de Allosaurus con marcas de mordedura de otros Allosaurus.",
-    img: "img/allosaurus.jpg",
+    img: `${import.meta.env.BASE_URL}img/allosaurus.jpg`,
     alt: "Montaje de Allosaurus en el Museo de Historia Natural de San Diego.",
   },
 ];
