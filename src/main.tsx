@@ -18,7 +18,7 @@ import NoEncontrada from "./pages/NoEncontrada";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/dinosaurios">
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Inicio />} />
