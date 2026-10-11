@@ -1,0 +1,14 @@
+node_modules/
+dist/
+capturas/
+srv-dino.mjs
+servir.mjs
+dom-*.txt
+*.pdf
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.local

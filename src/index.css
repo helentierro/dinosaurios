@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* ─── Tokens de la web de dinosaurios ─── */
+:root {
+  --papel: #faf9f6;
+  --papel-alt: #f1efe9;
+  --tinta: #1c2321;
+  --tinta-suave: #3d4845;
+  --regla: #d8d4ca;
+  --acento: #9c4221;
+  --acento-hover: #7d3419;
+  --acento-texto: #fdf3ef;
+}
+
+@theme {
+  --color-papel: #faf9f6;
+  --color-papel-alt: #f1efe9;
+  --color-tinta: #1c2321;
+  --color-tinta-suave: #3d4845;
+  --color-regla: #d8d4ca;
+  --color-acento: #9c4221;
+  --color-acento-hover: #7d3419;
+  --color-acento-texto: #fdf3ef;
+
+  --font-display: "Source Serif 4 Variable", Georgia, serif;
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+
+  --radius-lock: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--papel);
+  color: var(--tinta);
+  line-height: 1.65;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+a {
+  color: var(--acento);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--acento-hover);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
